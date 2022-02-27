@@ -1,0 +1,25 @@
+apiVersion: v1
+entries:
+  mysql-chart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-02-27T12:26:48.8354968+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 9b692635fa92d0de6336aeffc88bb02fb3a3fd4f1f2e5d082e8059adeadc158e
+    name: mysql-chart
+    type: application
+    urls:
+    - https://github.com/chandrashekarhamse/helm-chart-repos.git/mysql-chart-0.1.0.tgz
+    version: 0.1.0
+  vote-app:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-02-27T12:26:48.8371272+05:30"
+    description: A Helm chart for demo voting app
+    digest: 7e88cd2738d6cdd047de1aeaad3f4e3a850ccf4cd9ffd3c9a7f8636961d43033
+    name: vote-app
+    type: application
+    urls:
+    - https://github.com/chandrashekarhamse/helm-chart-repos.git/vote-app-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-02-27T12:26:48.8312705+05:30"
